@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Long</key>
+	<dict>
+		<key>15A</key>
+		<real>38.1</real>
+		<key>20A</key>
+		<real>38.1</real>
+		<key>25A</key>
+		<real>38.1</real>
+		<key>32A</key>
+		<real>47.6</real>
+		<key>40A</key>
+		<real>57.2</real>
+	</dict>
+	<key>Short</key>
+	<dict>
+		<key>25A</key>
+		<real>25.4</real>
+		<key>32A</key>
+		<real>31.8</real>
+		<key>40A</key>
+		<real>38.1</real>
+	</dict>
+</dict>
+</plist>
