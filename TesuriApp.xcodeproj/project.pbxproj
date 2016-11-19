@@ -16,6 +16,7 @@
 		3283B0701DDFE4210057BBEC /* Property_sList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3283B06F1DDFE4210057BBEC /* Property_sList.plist */; };
 		3283B0721DDFF2020057BBEC /* FlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283B0711DDFF2020057BBEC /* FlatViewController.swift */; };
 		3283B0741DDFF5BC0057BBEC /* Flat_aViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3283B0731DDFF5BC0057BBEC /* Flat_aViewController.swift */; };
+		3283B0761DE03CF70057BBEC /* size-image.bmp in Resources */ = {isa = PBXBuildFile; fileRef = 3283B0751DE03CF70057BBEC /* size-image.bmp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3283B06F1DDFE4210057BBEC /* Property_sList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Property_sList.plist; sourceTree = "<group>"; };
 		3283B0711DDFF2020057BBEC /* FlatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatViewController.swift; sourceTree = "<group>"; };
 		3283B0731DDFF5BC0057BBEC /* Flat_aViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flat_aViewController.swift; sourceTree = "<group>"; };
+		3283B0751DE03CF70057BBEC /* size-image.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = "size-image.bmp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		3283B0581DDC09D10057BBEC /* TesuriApp */ = {
 			isa = PBXGroup;
 			children = (
+				3283B0751DE03CF70057BBEC /* size-image.bmp */,
 				3283B0591DDC09D10057BBEC /* AppDelegate.swift */,
 				3283B05B1DDC09D10057BBEC /* ViewController.swift */,
 				3283B0711DDFF2020057BBEC /* FlatViewController.swift */,
@@ -138,6 +141,7 @@
 			files = (
 				3283B0641DDC09D10057BBEC /* LaunchScreen.storyboard in Resources */,
 				3283B0611DDC09D10057BBEC /* Assets.xcassets in Resources */,
+				3283B0761DE03CF70057BBEC /* size-image.bmp in Resources */,
 				3283B06E1DDFE1B50057BBEC /* Property_eList.plist in Resources */,
 				3283B0701DDFE4210057BBEC /* Property_sList.plist in Resources */,
 				3283B05F1DDC09D10057BBEC /* Main.storyboard in Resources */,

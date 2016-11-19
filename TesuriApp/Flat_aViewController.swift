@@ -11,11 +11,19 @@ import UIKit
 class Flat_aViewController: UIViewController {
 
     
+    //エルボの値をdicに格納
+    var dic:[String:[String:Double]] = [:]
     
+    //サイズの値をSeconddicに格納
+    var Seconddic:[String:Double] = [:]
+    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+               
+        
         // Do any additional setup after loading the view.
     }
 
