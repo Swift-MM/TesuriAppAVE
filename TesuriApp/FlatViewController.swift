@@ -30,8 +30,7 @@ class FlatViewController: UIViewController {
         
         
         print(dic)
-        //サイズの値が何を押されたのか判定
-       
+        
 
         
         
@@ -41,7 +40,7 @@ class FlatViewController: UIViewController {
 //        
 //        
         
-        
+        //サイズの値が何を押されたのか判定
         var size = dic["Long"]?["25A"]
         
         print(size)
@@ -105,19 +104,43 @@ class FlatViewController: UIViewController {
         let elbo:Int = エルボ.selectedSegmentIndex
         //ザグリ寸法の項目にどんな値が入ったかをzaguriに格納
         let zaguri:String = ザグリ寸法.text!
+        
         print(zaguri)
         
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        //eboxdという箱をここで用意
+        var ebox:String = "Long"
+        
+        //もしエルボの欄で０が選ばれたらロングをeboxに代入
+        if エルボ.selectedSegmentIndex == 0 {
+            ebox = "Long"
+        }
+        //もしエルボの欄で１が選ばれたらショートをeboxに代入
+        else if エルボ.selectedSegmentIndex == 1 {
+            ebox = "short"
+        }
+        
+        print (ebox)
+
         
         let ud = UserDefaults.standard
         let udId : [String : Double] = ud.object(forKey: "id") as![String : Double]
         print (udId)
+        
+//        let A_ans = C - dic;[String:[String:Double]]
+//        let B_ans = D - Seconddic;[String:Double] / 2 + zaguri
+//        let C_ans = A - dic:[String:[String:Double]] * 2
+//        let D_ans = B - Seconddic:[String:Double] / 2 - pillar / 2
 //        
-//        let A_ans = C - dic[String][Int]
-//        let B_ans = D - dic[String][Int] / 2 + ザグリ寸法
-//        let C_ans = A - dic[String][Int] * 2
-//        let D_ans = B - dic[String][Int] / 2 - 中の柱 / 2
-//        
-//
+
 
         
         
